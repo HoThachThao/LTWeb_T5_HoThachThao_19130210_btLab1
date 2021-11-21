@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
+</head>
+<style>
+    html, body {
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #page {
+        width: 100%;
+    }
+
+    #page form {
+        width: 500px;
+        height: 700px;
+        margin: 0 auto;
+        border-radius: 2px;
+        border: 10px solid #e1e1e1;
+        padding-top: 30px;
+    }
+
+    #page form .container {
+        width: 480px;
+        margin: 0 auto;
+        margin-left: 27px;
+    }
+
+    span {
+        color: #8dd83a;
+        font-weight: bolder;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    #page form .container input {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: #f9f9f9;
+        border: 2px solid #f2f2f2;
+    }
+
+    #page form .container input[type=text] {
+        width: 400px;
+        height: 40px;
+    }
+
+    #page form .container input[type=password] {
+        width: 400px;
+        height: 40px;
+    }
+
+    #page form .container input[type=email] {
+        width: 400px;
+        height: 40px;
+    }
+
+    .inputWithIcon input[type=text] {
+        padding-left: 40px;
+    }
+
+    .inputWithIcon input[type=email] {
+        padding-left: 40px;
+    }
+
+    .inputWithIcon input[type=password] {
+        padding-left: 40px;
+    }
+
+    .inputWithIcon {
+        position: relative;
+    }
+
+    .inputWithIcon i {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        color: #bcbcbc;
+        transition: .2s;
+        padding: 10px 0;
+    }
+
+    .inputWithIcon input[type=text]:focus + i {
+        color: #8dd83a;
+    }
+
+    .inputWithIcon input[type=password]:focus + i {
+        color: #8dd83a;
+    }
+
+    .inputWithIcon input[type=email]:focus + i {
+        color: #8dd83a;
+    }
+
+    .year {
+        margin-top: 20px;
+        width: 50%;
+        float: left;
+    }
+
+    .year input {
+        text-align: center;
+    }
+
+    .gender {
+        margin-top: 20px;
+        width: 50%;
+        float: right;
+    }
+
+    .gender button {
+        margin-top: 10px;
+        width: 100px;
+        height: 45px;
+        border: 2px solid #f2f2f2;
+    }
+
+    .pay {
+        width: 480px;
+    }
+
+    .pay button {
+        width: 222px;
+        height: 45px;
+        float: left;
+        border: 2px solid #f2f2f2;
+    }
+
+    .pay #credit-card {
+        color: white;
+        background-color: green;
+    }
+
+</style>
+<body>
+<div id="page">
+    <form action="">
+        <div class="container">
+            <span>Account</span>
+            <br>
+            <div class="inputWithIcon">
+                <input id="name" type="text" placeholder="Full Name" required>
+                <i class="fas fa-user fa-lg fa-lw" aria-hidden="true"></i>
+            </div>
+            <div class="inputWithIcon">
+                <input id="email" type="email" placeholder="Email Adress" required>
+                <i class="fas fa-envelope fa-lg fa-lw" aria-hidden="true"></i>
+
+            </div>
+            <div class="inputWithIcon">
+                <input id="password" type="password" placeholder="Password" required>
+                <i class="fas fa-lock fa-lg fa-lw" aria-hidden="true"></i>
+            </div>
+
+            <div>
+                <div class="year">
+                    <span>Day of Birth</span>
+                    <br>
+                    <input style="width: 45px" id="day" type="text" placeholder="DD" required>
+                    <input style="width: 45px" id="month" type="text" placeholder="MM" required>
+                    <input style="width: 70px" id="year" type="text" placeholder="YYYY" required>
+                </div>
+                <div class="gender">
+                    <span>Gender</span>
+                    <br>
+                    <button type="button" id="btn1" value="Male"
+                            onclick="document.getElementById('btn1').style.background = 'green';
+                document.getElementById('btn1').style.color = 'white';
+                document.getElementById('btn2').style.background='white';
+                document.getElementById('btn2').style.border='2px solid #f2f2f2';
+                document.getElementById('btn2').style.color='black'">
+                        Male
+                    </button>
+
+                    <button type="button" id="btn2" value="Female"
+                            onclick="document.getElementById('btn2').style.background = 'green';
+                document.getElementById('btn2').style.color = 'white';
+                document.getElementById('btn1').style.background='white';
+                document.getElementById('btn1').style.border='2px solid #f2f2f2';
+                document.getElementById('btn1').style.color='black'">
+                        Female
+                    </button>
+                </div>
+            </div>
+            <div class="pay">
+                <br><br><br><br><br><br>
+                <span>Payment Detail</span>
+                <br>
+                <button type="button" id="credit-card" value="credit-card" style="margin-top: 10px"
+                        onclick="document.getElementById('credit-card').style.background = 'green';
+                document.getElementById('credit-card').style.color = 'white';
+                document.getElementById('paypal').style.background='white';
+                document.getElementById('paypal').style.border='2px solid #f2f2f2';
+                document.getElementById('paypal').style.color='black'">
+                    <i class="fas fa-credit-card"></i>
+                    Credit Card
+                </button>
+
+                <button type="button" id="paypal" value="paypal" style="margin-top: 10px"
+                        onclick="document.getElementById('paypal').style.background = 'green';
+                document.getElementById('paypal').style.color = 'white';
+                document.getElementById('credit-card').style.background='white';
+                document.getElementById('credit-card').style.border='2px solid #f2f2f2';
+                document.getElementById('credit-card').style.color='black'">
+                    <i class="fab fa-cc-paypal"></i>
+                    Paypal
+                </button>
+            </div>
+            <br><br><br><br>
+            <div class="inputWithIcon">
+                <input id="numbercard" type="text" placeholder="Card Number" required>
+                <i class="fas fa-credit-card fa-lg fa-lw" aria-hidden="true"></i>
+            </div>
+
+        </div>
+    </form>
+
+
+</div>
+<script src="js/main.js">
+</script>
+</body>
+
+</html>
+

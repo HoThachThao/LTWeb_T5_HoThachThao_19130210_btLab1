@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1</title>
+</head>
+<style>
+
+    * {
+
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    body{
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    #menu{
+        width: 650px;
+        height: 60px;
+        background-color: #eeeeee;
+        margin: 0 auto;
+    }
+    ul.main-menu{
+        border-bottom: solid #8d0606;
+
+    }
+    ul.main-menu >li{
+    float: left;
+        position: relative;
+    }
+    ul.main-menu> li >a{
+        color: #120706;
+        padding: 0px 15px 0px 15px;
+        line-height: 60px;
+        display: block;
+    }
+    ul.main-menu >li >a:hover{
+        background-color: #731047;
+        color: #eeeeee;
+    }
+    ul.sub-menu{
+        width: 160px;
+        background-color: #eeeeee;
+        display: none;
+        position: absolute;
+    }
+    ul.sub-menu li{
+    }
+    ul.sub-menu li a{
+        color: #120706;
+        display: block;
+        border-bottom: 2px solid #bebebe;
+        line-height: 60px;
+        text-indent:20px ;
+    }
+    ul.sub-menu li a:hover{
+        background-color: #731047;
+        color: #eeeeee;
+    }
+    ul.main-menu li:hover ul.sub-menu{
+        display: block;
+    }
+
+</style>
+<body>
+<div id="menu">
+        <ul class="main-menu">
+            <li><a href="fake-link">HOME</a></li>
+            <li><a href="fake-link">PRODUCTS</a>
+                <ul class="sub-menu">
+                    <li><a href="">Tivi</a></li>
+                    <li><a href="">Máy tính xách tay</a></li>
+                </ul>
+            </li>
+            <li><a href="fake-link">ABOUT US</a></li>
+            <li><a href="fake-link">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

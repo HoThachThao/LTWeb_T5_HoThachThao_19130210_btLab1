@@ -1,0 +1,62 @@
+<style>
+
+    html, body {
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+    }
+
+    #page {
+        width: 100%;
+        padding-top: 50px;
+        background-image: url("https://2.bp.blogspot.com/-vCmAJrmeoTY/VwTKqnElEVI/AAAAAAAAALI/2LNV364f3Lc_jfdmbcrMf8JbS3UDFux6Q/s1600/background.jpg");
+    }
+
+    form {
+        padding-top: 50px;
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        background-color: #e6ece6;
+        border-radius: 10px;
+    }
+
+    input {
+        height: 50px;
+        width: 250px;
+        margin-left: 60px;
+        border: 1px solid #e6ece6;
+        border-radius: 10px;
+        font-weight: bold;
+        padding-left: 10px;
+        box-shadow: 0 0 5px;
+        margin-bottom: 20px;
+    }
+
+    #sign_in {
+        color: #e6ece6;
+        margin-left: 120px;
+        padding-left: 0px;
+        text-align: center;
+        width: 150px;
+        border-radius: 100px;
+        background-color: rgba(167, 94, 246, 0.97);
+        border: none;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    span {
+        display: inline-block;
+        color: rgb(230, 236, 230);
+        text-align: center;
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+</style>

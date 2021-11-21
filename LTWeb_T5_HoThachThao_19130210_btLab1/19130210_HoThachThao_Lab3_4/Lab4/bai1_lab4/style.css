@@ -1,0 +1,59 @@
+style
+
+
+
+   #content {
+        width 100%;
+        height 100vh;
+        background lightblue;
+        display flex;
+        justify-content center;
+        align-items center;
+    }
+   #btn1{
+       margin-left 50px;
+       width 80px;
+       height 50px;
+       background red;
+
+   }
+   #btn2{
+       margin-left 50px;
+       width 80px;
+       height 50px;
+       background blue;
+
+   }
+   #btn3{
+         margin-left 50px;
+         width 80px;
+         height 50px;
+         background blueviolet;
+
+     }
+   #btn4{
+       margin-left 50px;
+           width 80px;
+           height 50px;
+           background white;
+
+       }
+   #btn5{
+       margin-left 50px;
+             width 80px;
+             height 50px;
+             background orange;
+
+         }
+   #btn6{
+       margin-left 50px;
+               width 80px;
+               height 50px;
+               background yellow;
+
+           }
+
+
+
+
+style

@@ -1,0 +1,96 @@
+
+    html, body {
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #page {
+        width: 100%;
+    }
+
+    #page .container {
+        width: 750px;
+        margin: 0 auto;
+        min-height: 600px;
+        border: 10px solid #e6e6e6;
+        border-radius: 1%;
+    }
+
+    #page .container .contact-us {
+        margin: 50px auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 200%;
+    }
+
+    input {
+        width: 650px;
+        height: 35px;
+        border-radius: 10px;
+        border: 2px solid #e0e0e0;
+        background-color: #e6e6e6;
+        padding-top: 20px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+
+    }
+
+    #page .container .contact-form #name {
+        margin-left: 50px;
+    }
+
+    #page .container .contact-form #email {
+        width: 300px;
+        float: left;
+        margin-left: 50px;
+    }
+
+    #page .container .contact-form #phone {
+        width: 300px;
+        float: right;
+        margin-right: 40px;
+    }
+
+    #page .container .contact-form #submit {
+        text-align: center;
+        margin-top: 20px;
+        height: 40px;
+        line-height: 20px;
+        background-color: #120706;
+        color: #eeeeee;
+        padding-top: 0px;
+        margin-left: 50px;
+        width: 660px;
+        border-radius: 50px;
+    }
+
+    h6 {
+
+        position: absolute;
+        left: 450px;
+    }
+
+    textarea {
+        margin-left: 50px;
+        border-radius: 10px;
+        border: 2px solid #e0e0e0;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    select {
+        /*box-shadow: 0 0 10px;*/
+        width: 660px;
+        height: 55px;
+        border-radius: 10px;
+        border: 2px solid #e0e0e0;
+        background-color: #e6e6e6;
+        padding-top: 20px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+</style>

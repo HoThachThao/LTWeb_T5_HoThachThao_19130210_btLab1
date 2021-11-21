@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap layout 3</title>
+</head>
+
+<style  >
+    body{
+        min-height: 600px;
+        font-family: Calibri;
+        font-size: 40px;
+
+    }
+    p{
+        margin: 0;
+    }
+    #container{
+        width: 1200px;
+        margin: auto;
+        min-height: 600px;
+        background: #7fffd2;
+
+    }
+    #container header{
+        height: 120px;
+        background: #00c4ffa8;
+
+    }
+    #container nav{
+        height: 400px;
+        background: #2bb8e2;
+    } #container #content{
+          background: white;
+          overflow:auto;
+
+      }
+    #container #content h5{
+        text-align: center;
+
+    }
+    #container #content .Item{
+
+       height: 220px;
+        width: 180px;
+        float: left;
+        clear: right;
+        border: 1px solid orangered;
+        margin: 70px;
+        padding: 20px;
+
+    }
+    .Margin{
+        margin-left: 120px !important;
+    }
+
+
+    #container footer{
+        height: 120px;
+        background: #00c4ffa8;
+    }
+
+</style>
+<body>
+<div id ="container">
+    <header></header>
+    <nav></nav>
+    <section id="content" >
+        <div id="service">
+            <h5> Out Service </h5>
+
+            <div class="Item Margin" >Service Item</div>
+            <div class="Item" >Service Item</div>
+            <div class="Item" >Service Item</div>
+            <div class="Item Margin" >Service Item</div>
+            <div class="Item" >Service Item</div>
+            <div class="Item" >Service Item</div>
+
+
+
+
+        </div>
+    </section>
+    <footer></footer>
+</div>
+</body>
+</html>

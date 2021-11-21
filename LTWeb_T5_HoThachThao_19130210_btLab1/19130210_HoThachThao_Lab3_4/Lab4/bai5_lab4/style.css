@@ -1,0 +1,22 @@
+<style>
+  
+
+    .app {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 30%;
+        height: 50%;
+        transition: all ease-in 2s;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+</style>

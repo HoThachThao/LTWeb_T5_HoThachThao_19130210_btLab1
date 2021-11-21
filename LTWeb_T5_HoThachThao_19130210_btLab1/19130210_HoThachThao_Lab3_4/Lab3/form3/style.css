@@ -1,0 +1,133 @@
+<style>
+    html, body {
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #page {
+        width: 100%;
+    }
+
+    #page form {
+        width: 500px;
+        height: 700px;
+        margin: 0 auto;
+        border-radius: 2px;
+        border: 10px solid #e1e1e1;
+        padding-top: 30px;
+    }
+
+    #page form .container {
+        width: 480px;
+        margin: 0 auto;
+        margin-left: 27px;
+    }
+
+    span {
+        color: #8dd83a;
+        font-weight: bolder;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    #page form .container input {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: #f9f9f9;
+        border: 2px solid #f2f2f2;
+    }
+
+    #page form .container input[type=text] {
+        width: 400px;
+        height: 40px;
+    }
+
+    #page form .container input[type=password] {
+        width: 400px;
+        height: 40px;
+    }
+
+    #page form .container input[type=email] {
+        width: 400px;
+        height: 40px;
+    }
+
+    .inputWithIcon input[type=text] {
+        padding-left: 40px;
+    }
+
+    .inputWithIcon input[type=email] {
+        padding-left: 40px;
+    }
+
+    .inputWithIcon input[type=password] {
+        padding-left: 40px;
+    }
+
+    .inputWithIcon {
+        position: relative;
+    }
+
+    .inputWithIcon i {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        color: #bcbcbc;
+        transition: .2s;
+        padding: 10px 0;
+    }
+
+    .inputWithIcon input[type=text]:focus + i {
+        color: #8dd83a;
+    }
+
+    .inputWithIcon input[type=password]:focus + i {
+        color: #8dd83a;
+    }
+
+    .inputWithIcon input[type=email]:focus + i {
+        color: #8dd83a;
+    }
+
+    .year {
+        margin-top: 20px;
+        width: 50%;
+        float: left;
+    }
+
+    .year input {
+        text-align: center;
+    }
+
+    .gender {
+        margin-top: 20px;
+        width: 50%;
+        float: right;
+    }
+
+    .gender button {
+        margin-top: 10px;
+        width: 100px;
+        height: 45px;
+        border: 2px solid #f2f2f2;
+    }
+
+    .pay {
+        width: 480px;
+    }
+
+    .pay button {
+        width: 222px;
+        height: 45px;
+        float: left;
+        border: 2px solid #f2f2f2;
+    }
+
+    .pay #credit-card {
+        color: white;
+        background-color: green;
+    }
+
+</style>

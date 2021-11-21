@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
+</head>
+<style>
+    * {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    html, body {
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+        background-image: url("img/bg.png");
+        background-repeat: no-repeat;
+    }
+
+    #page {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    form {
+        padding-top: 50px;
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        background-color: #e8e7e7;
+        border-radius: 10px;
+    }
+
+    input {
+        height: 50px;
+        width: 250px;
+        margin-left: 60px;
+        border: 1px solid #e7e5e5;
+        border-radius: 10px;
+        font-weight: bold;
+        padding-left: 10px;
+        box-shadow: 0 0 5px;
+        margin-bottom: 20px;
+    }
+
+    #sign_in {
+        color: #eeeeee;
+        margin-left: 120px;
+        padding-left: 0px;
+        text-align: center;
+        width: 150px;
+        border-radius: 100px;
+        background-color: #a75ef6;
+        border: none;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    span {
+        display: inline-block;
+        color: #bebebe;
+        text-align: center;
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+</style>
+<body>
+<div id="page">
+    <form action="">
+        <h1>Sign In</h1>
+
+        <input name="name" id="name" type="text" placeholder="username or email" required>
+        <input name="pass" id="pass" type="password" placeholder="password" required>
+        <input style="margin-bottom: 40px" id="sign_in" type="submit" value="SIGN IN">
+        <div>
+            <span>Or login with</span>
+            <br>
+            <div style="margin-bottom: 150px">
+            <a href=""> <i style="color: #216eb9;font-size: 200%;margin-left: 150px;" class="fab fa-facebook"></i></a>
+            <a href=""> <i style="font-size: 200%;margin-left: 20px" class="fab fa-google"></i></a>
+            <br>
+            </div>
+        <a href="" style="margin-left: 170px"> Sign Up</a>
+
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
